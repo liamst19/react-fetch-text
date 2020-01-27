@@ -1,0 +1,32 @@
+.JapaneseText{
+    margin: 2.5vw 0;
+}
+
+.JapaneseText .wrapper{
+    margin: 0;
+    padding: 0 1vw 0 4vw;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    width: 90vw;
+    height: auto;
+
+    /* -webkit-column-width: 23em; /\* Chrome, Safari, Opera *\/ */
+    /* -webkit-column-gap: 2rem; */
+    /* -moz-column-width: 23em; /\* Firefox *\/ */
+    /* -moz-column-gap: 2rem; */
+    column-width: 21em;
+    /* column-gap:   2em; */
+
+    background-color: #33FFFF;
+    border: 4px solid #000000;
+}
+
+.JapaneseText .wrapper p{
+    font-family: 'Noto Serif JP';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.045em;
+    line-height: 1.65em;
+    margin: 0 1em;
+    /* height: 25em; */
+}

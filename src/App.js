@@ -1,24 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import JapaneseText from "./component.JapaneseText.js";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Fetch Text Demo</h1>
       </header>
+      <main>{<JapaneseText url="wagahai.json" />}</main>
+      <footer className="App-footer">
+        <h2><span>The footer is not where it should be.</span></h2>
+      </footer>
     </div>
   );
 }

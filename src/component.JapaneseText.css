@@ -1,5 +1,5 @@
 .JapaneseText{
-    margin: 2.5vw 0;
+    margin: 0;
 }
 
 .JapaneseText .wrapper{
@@ -17,15 +17,15 @@
     /* -moz-column-gap: 2rem; */
     /* column-width: 21em; */
     /* column-gap:   2em; */
-    columns: 21rem;
+    columns: 15rem;
+    column-gap: 0.45em;
 
     background-color: #33FFFF;
-    border: 0.5vw solid #000000;
 }
 
 .JapaneseText .wrapper p{
     font-family: 'Noto Serif JP';
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.045em;
     line-height: 1.65em;

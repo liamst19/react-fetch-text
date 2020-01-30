@@ -13,3 +13,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.App {
+    margin: 0;
+    padding: 0;
+    background-color: #FEFEFE;
+}
+
+.App-header {
+    width: 100%;
+    background: #60FF00;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.App-header h1{
+    font-family: 'Franklin Gothic';
+    font-size: 10vw;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    color: #000000;
+}
+
+.App-footer {
+    margin: 0 0 5vw 0;
+}
+
+.App-footer h2{
+    margin: 0;
+    padding: 0;
+}
+
+.App-footer h2 span{
+    color: #000000;
+    font-size: 8vw;
+    background-color: yellow;
+}
+
+.header-title{
+    font-family: 'Heebo';
+    font-weight: 100;
+    font-size: 9vw;
+    line-height: 1.5em;
+    color: #aaaaaa;
+    margin: 0;
+    padding: 0;
+}

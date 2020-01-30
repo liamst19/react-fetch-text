@@ -10,7 +10,9 @@ function App() {
       </header>
       <main>{<JapaneseText url="wagahai.json" />}</main>
       <footer className="App-footer">
-        <h2><span>This is the footer.</span></h2>
+        <h2>
+          <span>This is the footer.</span>
+        </h2>
       </footer>
     </div>
   );

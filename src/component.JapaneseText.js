@@ -4,13 +4,13 @@ import "./component.JapaneseText.css";
 function JapaneseText(props) {
   // States -----------------------
   const [state, setState] = useState({
-    text: "ロード中..."
+    text: "ロード中…"
   });
 
   // Ref -------------------------
   const refContainer = useRef();
 
-  // Hooks ------------------------
+  // Effect ------------------------
   useEffect(() => {
 
     // Fetch text data from an external file
